@@ -1,2 +1,6 @@
 @import "materialize.min.css";
 @import "font-awesome.min.css";
+
+.font {
+    font-family: 'Times New Roman', Times, serif;
+}
