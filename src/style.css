@@ -1,6 +1,27 @@
 @import "materialize.min.css";
-@import "font-awesome.min.css";
 
 .font {
-    font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
+}
+.each-news-component {
+  margin-top: 6em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid lightgray;
+}
+.clear {
+  clear: both;
+}
+.loader-container,
+.no-article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+.bookmark-link-container {
+  text-align: center;
+  margin-top: 2em;
+}
+.stories-link-container {
+  padding-top: 2em;
 }
