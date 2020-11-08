@@ -21,7 +21,7 @@ let bookmarkList =
 const displayNews = (views) => {
   let output = "";
   views.results.forEach((view) => {
-    output += `<li class="container each-news-component"><h4 style="font-weight: bold;">${view.title}</h4> <h6 style="font-weight: bold;">READ FULL ARTICLE &nbsp<a href="${view.url}">HERE</a></h6> <h5>${view.abstract}</h5><p style="bold">${view.byline}</p> <img class="card-image" height="275px" width="275px" src="${view.multimedia[3].url}" alt="article image"><button class="waves-effect right btn m5" style="margin: 10px;" id="readingList">
+    output += `<li class="container each-news-component"> <img class="card-image" height="275px" width="275px" src="${view.multimedia[3].url}" alt="article image"> <h4 style="font-weight: bold;">${view.title}</h4> <h6 style="font-weight: bold;">READ FULL ARTICLE &nbsp<a href="${view.url}">HERE</a></h6> <h5>${view.abstract}</h5><p style="bold">${view.byline}</p> <button class="waves-effect right btn m5" style="margin: 10px;" id="readingList">
         Add To Reading List
       </button> <div class="clear"></div></li> `;
     news.innerHTML = output;
